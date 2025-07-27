@@ -1,6 +1,6 @@
 # Chatbot-Architekturvergleich: Spring MVC vs. WebFlux
 
-Dieses Repository enthält den Quellcode und die Begleitdaten zur Bachelorarbeit:  
+Dieses Repository enthält den Quellcode und die Begleitdaten zur Bachelorarbeit.
 
 Im Rahmen der Arbeit wurde ein webbasiertes Chatsystem mit Frontend und Backend entwickelt, das die Kommunikation mit einem Sprachmodell ermöglicht. Ziel war es, zwei unterschiedliche Backend-Architekturen – Spring MVC (blockierend) und Spring WebFlux (nicht-blockierend) – miteinander zu vergleichen. Untersucht wurde, wie sich diese Architekturen unter hoher Last auf Antwortverhalten und Systemressourcen auswirken.
 
