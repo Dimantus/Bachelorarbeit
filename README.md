@@ -29,14 +29,16 @@ Im Rahmen dieser Arbeit wird das technische Grundgerüst (Frontend-Backendsystem
 ### Evaluation:
 - Node.js (für Streaming-Lasttests)
 - Docker (für Deployment und Isolation)
+- Bash Skript zur Systembeobachtung
 
 ---
 
 ## Starten der Anwendung (Docker)
-
+Für eine korrekte Auführung muss in den application.properties die richtigen Werte, für die Kommunikation mit dem LLM eingegeben werden.
+Zudem muss eventuell in der Datei MyChatAPI im enum der Name des LLMs hinzugefügt werden.
 ```bash
 docker build -t chatbot .
-docker run -p 8080:8080 chatbot
+docker run -d -p 8080:8080 chatbot
 ```
 
 Frontend & Backend sind anschließend unter `http://localhost:8080` erreichbar.  
