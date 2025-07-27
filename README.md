@@ -66,6 +66,6 @@ Die Nutzung von LLMs basiert auf lokalen Ressourcen (LM Studio) – es werden ke
 
 ## Autor
 
-Serhat N.  
+Serhat Nazlier  
 Bachelorarbeit, TH Köln, 2025  
 Betreuung: Prof. Dr. Hoai Viet Nguyen & Furkan Sengül
