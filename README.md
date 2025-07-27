@@ -2,7 +2,7 @@
 
 Dieses Repository enthält den Quellcode und die Begleitdaten zur Bachelorarbeit:  
 
-Im Rahmen dieser Arbeit wird das technische Grundgerüst (Frontend-Backendsystem) für ein webbasiertes Chatsystem geschaffen, das eine spätere Anbindung an ein Sprachmodell ermöglicht und eine chatbasierte Interaktion mit dem Sprachmodell unterstützt. Auf Basis des Systems erfolgt der Vergleich der beiden Architekturansätze Spring MVC (blockierend) und Spring WebFlux (nicht-blockierend). Untersucht wird dabei, wie sich die jeweilige Architektur auf das Antwortverhalten und die Systemlast bei parallelen Anfragen auswirkt.
+Im Rahmen der Arbeit wurde ein webbasiertes Chatsystem mit Frontend und Backend entwickelt, das die Kommunikation mit einem Sprachmodell ermöglicht. Ziel war es, zwei unterschiedliche Backend-Architekturen – Spring MVC (blockierend) und Spring WebFlux (nicht-blockierend) – miteinander zu vergleichen. Untersucht wurde, wie sich diese Architekturen unter hoher Last auf Antwortverhalten und Systemressourcen auswirken.
 
 ---
 
